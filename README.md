@@ -1,6 +1,6 @@
 # Unreal Engine 4 Communcate with Python
 
-> WIP & Sorry for my bad English. :)
+> Sorry for my bad English. :)
 
 Since UE4 can't have multiple sessions on one **GSI(Game Server Instance)**, we need to use multiple GSIs to meet players' requirements.
 
@@ -36,18 +36,18 @@ There're some links here and there, some of them obsoleted, and some of them eve
 git clone https://github.com/hexcola/UE4_Communicate_With_Python.git
 ```
 
-2. Go to `UE4_Network_Socket` folder, which is the root of UE4 project, find `UE4_Network_Socket.uproject` and right click choose `Generate Visual Studio project files`.
+2. Go to **UE4_Network_Socket** folder, which is the root of UE4 project, find **UE4_Network_Socket.uproject** and right click choose **Generate Visual Studio project files**.
 
-3. Open `UE4_Network_Socket.sln` solution, and build `UE4_Network_Socket`, after that, open this project with UE4 editor.
+3. Open **UE4_Network_Socket.sln** solution, and build **UE4_Network_Socket**, after that, open this project with UE4 editor.
 > You should only care about 5 files: `ActorTCPClient.h`, `ActorTCPClient.cpp`, `ActorTCPServer.h`, `ActorTCPServer.cpp` and the `UE4_Network_Socket.Build.cs` which add `Sockets` and `Networking` dependencies.
 
-4. There're two maps, `TCP_Server`, `TCP_Client`, simple enought since both of them just have one actor.
+4. There're two maps, **TCP_Server**, **TCP_Client**, simple enought since both of them just have one actor.
     * If you treate UE4 instance as tcp server, then open `TCP_Server` map, and hit the Play button, then use `Python simple_tcp_client.py` to connect
     * If you treate UE4 instance as tcp client, then fisrt use `Python simple_tcp_server.py` to launch the tcp server, then open `TCP_Client` map, hit the play button to connect.
 
 
 ## Reference
 
-* [TCP Socket Listener, Receive Binary Data From an IP/Port Into UE4, (Full Code Sample)](https://wiki.unrealengine.com/TCP_Socket_Listener,_Receive_Binary_Data_From_an_IP/Port_Into_UE4,_%28Full_Code_Sample)) - if can't open, try copy and open this url: https://wiki.unrealengine.com/TCP_Socket_Listener,_Receive_Binary_Data_From_an_IP/Port_Into_UE4,_%28Full_Code_Sample)
+* Copy the *entire* url and open: https://wiki.unrealengine.com/TCP_Socket_Listener,_Receive_Binary_Data_From_an_IP/Port_Into_UE4,_%28Full_Code_Sample)
 * [Communication Between UE4 and a Python UDP Server](https://forums.unrealengine.com/showthread.php?54343-Communication-Between-UE4-and-a-Python-UDP-Server)
 * [Sending Data to Python From UE4 via TCP or UDP, partial success requesting help](https://answers.unrealengine.com/questions/71715/sending-data-to-python-from-ue4-via-tcp-or-udp-par.html)
