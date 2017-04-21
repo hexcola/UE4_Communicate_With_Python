@@ -1,4 +1,4 @@
-# Unreal Engine 4 Communcate with Python
+# Unreal Engine 4 Communicate with Python
 
 > Sorry for my bad English. :)
 
@@ -15,9 +15,9 @@ The ideal way is make a master server in charge of :
 
 But, how to build this master server? 
 
-Use UE4 to create one? Maybe. How about use python. Assume we created a **Python Master Server** and all the GSIs are its **Node**s, and first step is we need to figure out how can we make UE4 communicate with Python?
+Use UE4 to create one? Maybe. How about use python. Assume we created a **Python Master Server** and all the GSIs are its **Node**s, and first step we need to figure out is how can we make UE4 communicate with Python?
 
-There're some links here and there, some of them obsoleted, and some of them even totally doesn't work, that's why this simple echo example come out.
+There're some links here and there, some of them obsoleted, and some of them just not work, that's why this simple echo example come out.
 
 ## Requirements
 
